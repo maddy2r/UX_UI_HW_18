@@ -71,7 +71,7 @@ footer{
 
 /*  HEROIMG */
 .heroImg {
-  padding: 25px;
+  padding: 0;
   margin-bottom: 0 auto;
 }
 .heroImg, .textContent {
@@ -79,6 +79,7 @@ footer{
   justify-content: center;
   align-items: center;
   padding: 20px;
+  padding-bottom: 0;
 }
 .textContent {
   display: grid;

@@ -1,6 +1,5 @@
 *{
   margin: 0;
-  padding: 1px;
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
@@ -97,6 +96,134 @@ footer{
   font-size: 32px;
   line-height: 40px;
 }
+
+/* MY DESIGN PROCESS */
+.myDesignProcess {
+background-color: #77a0b7;
+padding: 20px;
+margin-bottom: 20px;
+}
+.process h1{
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.process p{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+.myProcess {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  padding: 20px;
+}
+.aboutMeButton {
+  margin: 0 auto;
+  display: block;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #1f2424;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.aboutMeButton a{
+  text-align: center;
+  text-decoration: none;
+  transform: color .4s ease;
+  color: #1f2424;
+}
+.aboutMeButton a:hover {
+  color: #e8e3d9;
+}
+
+/* MY WORK */
+.myWork h1{
+  font-weight: bolder;
+  font-size: 50px;
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+.workContent1 {
+  padding: 20px;
+  grid-area: taskMNSTR1;
+}
+.workContent1 img {
+  width: 44%;
+  margin-bottom: 20px;
+}
+.workContent1 p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: flex-start;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.workContent1 h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: flex-start;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.workPrototype1 {
+  grid-area: taskMNSTR2;
+}
+.workGrid {
+  display: grid;
+  grid-template-areas: 'taskMNSTR1 taskMNSTR2';
+}
+.caseStudyButtons {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #1f2424;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.caseStudyButtons a{
+  text-align: center;
+  text-decoration: none;
+  transform: color .4s ease;
+  color: #1f2424;
+}
+.caseStudyButtons a:hover {
+  color: #daa520;
+}
+.workPrototype1 img{
+  width: 50%;
+}
+
+
 
 /* FOOTER */
 .footer-logo{

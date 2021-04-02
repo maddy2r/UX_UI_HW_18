@@ -163,66 +163,13 @@ margin-bottom: 20px;
   padding: 20px;
   padding-bottom: 20px;
 }
-.workContent1 {
-  padding: 20px;
-  grid-area: taskMNSTR1;
-}
-.workContent1 img {
-  width: 44%;
-  margin-bottom: 20px;
-}
-.workContent1 p {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 40px;
-  display: flex;
-  justify-content: flex-start;
-  text-align: flex-start;
-  margin: auto;
-  margin-bottom: 20px;
-}
-.workContent1 h2 {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 40px;
-  display: flex;
-  justify-content: flex-start;
-  text-align: flex-start;
-  margin: auto;
-  margin-bottom: 20px;
-}
 
-.workPrototype1 {
-  grid-area: taskMNSTR2;
+#workGrid {
+margin: 0px 5%;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr;
 }
-.workGrid {
-  display: grid;
-  grid-template-areas: 'taskMNSTR1 taskMNSTR2';
-}
-.caseStudyButtons {
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: 2px solid #1f2424;
-  padding: 10px;
-  cursor: pointer;
-  overflow: hidden;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-.caseStudyButtons a{
-  text-align: center;
-  text-decoration: none;
-  transform: color .4s ease;
-  color: #1f2424;
-}
-.caseStudyButtons a:hover {
-  color: #daa520;
-}
-.workPrototype1 img{
-  width: 50%;
-}
-
 
 
 /* FOOTER */

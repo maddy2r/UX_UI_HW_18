@@ -101,9 +101,9 @@ footer{
 .myDesignProcess {
 background-color: #77a0b7;
 padding: 20px;
-margin-bottom: 20px;
+padding-bottom: 40px;
 }
-.process h1{
+.myDesignProcess h1{
   font-weight: bolder;
   font-size: 50px;
   line-height: 60px;
@@ -113,7 +113,7 @@ margin-bottom: 20px;
   padding: 20px;
   padding-bottom: 0;
 }
-.process p{
+.myDesignProcess p{
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
@@ -123,15 +123,23 @@ margin-bottom: 20px;
   margin: auto;
   padding: 20px;
 }
-.myProcess {
-  margin: 0 auto;
+.myProcess{
+  list-style: none;
   display: flex;
+  align-items: center;
   justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.myProcess h2 {
   font-weight: 600;
   font-size: 32px;
   line-height: 40px;
   padding: 20px;
 }
+.myProcess li{
+  margin: 0 10px;
+}
+
 .aboutMeButton {
   margin: 0 auto;
   display: block;
@@ -164,13 +172,131 @@ margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
-#workGrid {
-margin: 0px 5%;
-display: grid;
-grid-template-rows: 1fr 1fr 1fr;
-grid-template-columns: 1fr 1fr;
+.workGrid {
+  display: grid;
+  grid-template-areas:
+  "taskmnstr taskmnstrImg"
+  "hsco hscoImg"
+  "doi doiImg";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.workGrid > div {
+  border-radius: 5px;
+  gap: 5px;
+  padding: 20px;
+}
+.TaskMNSTR {
+  grid-area: taskmnstr;
+  text-align: left;
+  margin: 0 auto;
+  padding: 20px;
+}
+.TaskMNSTRImg img {
+  grid-area: taskmnstrImg;
+}
+.HSCO {
+  grid-area: hsco;
+  text-align: left;
+  margin: 0 auto;
+  padding: 20px;
+}
+.HSCOImg img {
+  grid-area: hscoImg;
+}
+.DOI {
+  grid-area: doi;
+  text-align: left;
+  margin: 0 auto;
+  padding: 20px;
+}
+.DOIImg img {
+  grid-area: doiImg;
 }
 
+.TaskMNSTR img {
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.TaskMNSTR p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.TaskMNSTR h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.HSCO img {
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.HSCO p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.HSCO h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.DOI img {
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.DOI p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.DOI h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+.caseStudyButtons {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 2px solid #1f2424;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.caseStudyButtons a{
+  text-align: center;
+  text-decoration: none;
+  transform: color .4s ease;
+  color: #1f2424;
+}
+.caseStudyButtons a:hover {
+  color: #daa520;
+}
+.TaskMNSTRImg img {
+  width: 100%;
+  height: 100%;
+}
+.HSCOImg img {
+  width: 100%;
+  height: 100%;
+}
+.DOIImg img {
+  width: 100%;
+  height: 100%;
+}
 
 /* FOOTER */
 .footer-logo{
